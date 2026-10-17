@@ -21,3 +21,9 @@
 - 전화번호: `index.html`에서 `070-7123-9081` 검색
 - 사이트 주소: `index.html`에서 `wisecoding.kr` 검색
 - 가격: `id="pricing"` 영역
+
+## 로고 파일
+- `assets/makercad-logo-horizontal.png` : 상단 메뉴·하단 푸터용 가로형 로고 (배경 투명)
+- `assets/makercad-icon.png` : 정사각형 아이콘 (M 심볼만)
+- `assets/makercad-logo.png` : 글자 포함 전체 로고 (SNS 공유 이미지)
+- `favicon.ico`, `assets/favicon-32.png`, `assets/apple-touch-icon.png` : 브라우저 탭·휴대폰 홈 화면 아이콘

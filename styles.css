@@ -76,3 +76,13 @@ footer{background:#04111c;color:#8499a9;padding:27px 0}.footer-grid{display:flex
   .hero-visual{width:118%;margin:0 -9%}
   .hero-wave{height:90px}
 }
+
+/* 새 로고: 아이콘 자체에 둥근 모서리와 테두리가 있으므로 그림자만 더함 */
+.brand img{border-radius:22%;box-shadow:0 4px 14px rgba(0,90,255,.35)}
+.footer-brand img{border-radius:22%}
+
+/* 가로형 로고 (배경 투명) */
+.brand img.logo-h{width:auto;height:52px;border-radius:0;box-shadow:none;display:block}
+.footer-brand img.logo-h{height:40px}
+.footer-brand span small{margin-top:4px;padding-left:4px}
+@media (max-width:680px){.brand img.logo-h{width:auto;height:42px}}
