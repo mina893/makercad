@@ -27,3 +27,5 @@
 - `assets/makercad-icon.png` : 정사각형 아이콘 (M 심볼만)
 - `assets/makercad-logo.png` : 글자 포함 전체 로고 (SNS 공유 이미지)
 - `favicon.ico`, `assets/favicon-32.png`, `assets/apple-touch-icon.png` : 브라우저 탭·휴대폰 홈 화면 아이콘
+- `assets/gripper-car-model.jpg`, `assets/gripper-car-ui.jpg` : 집게 자동차 프로젝트 섹션 이미지
+- `assets/gripper-car-assembly.mp4` : 집게 자동차 조립 영상 (720p, 1.5배속, 약 5MB) · `assets/gripper-car-assembly-poster.jpg` : 영상 대표 이미지

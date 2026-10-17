@@ -86,3 +86,23 @@ footer{background:#04111c;color:#8499a9;padding:27px 0}.footer-grid{display:flex
 .footer-brand img.logo-h{height:40px}
 .footer-brand span small{margin-top:4px;padding-left:4px}
 @media (max-width:680px){.brand img.logo-h{width:auto;height:42px}}
+
+/* 집게 자동차 프로젝트 */
+.car-section{background:linear-gradient(180deg,#f4f8fb 0,#fff 100%)}
+.car-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:60px;align-items:center}
+.car-visual{position:relative;padding-top:40px}
+.car-model{margin:0;padding-top:150px;border-radius:28px;overflow:hidden;background:#f6f9fe;border:1px solid var(--line);box-shadow:var(--shadow)}
+.car-model img{display:block;width:100%;height:auto}
+.car-ui{position:absolute;left:-32px;top:0;width:44%;margin:0;border-radius:14px;overflow:hidden;background:#fff;border:1px solid var(--line);box-shadow:0 18px 40px rgba(12,35,53,.18)}
+.car-ui img{display:block;width:100%;height:auto}
+.car-ui figcaption{font-size:12px;font-weight:700;color:#54677a;padding:8px 12px}
+.car-tags{display:flex;flex-wrap:wrap;gap:8px;list-style:none;padding:0;margin:22px 0 0}
+.car-tags li{padding:7px 13px;border-radius:999px;background:#e8f7fb;color:#0a7f99;font-size:13px;font-weight:700}
+@media (max-width:1020px){.car-grid{grid-template-columns:1fr;gap:40px}.car-ui{left:16px}}
+@media (max-width:680px){.car-visual{padding-top:0}.car-model{padding-top:0}.car-ui{position:static;width:100%;margin-top:14px}}
+.car-video{margin-top:56px}
+.car-video-head{display:flex;align-items:baseline;justify-content:space-between;gap:16px;flex-wrap:wrap;margin-bottom:14px}
+.car-video-head h3{margin:0;font-size:22px;letter-spacing:-.02em}
+.car-video-head span{color:#54677a;font-size:14px}
+.car-video video{display:block;width:100%;aspect-ratio:16/9;border-radius:24px;background:#eef3f9;border:1px solid var(--line);box-shadow:var(--shadow)}
+@media (max-width:680px){.car-video{margin-top:36px}.car-video video{border-radius:16px}}
