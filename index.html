@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <meta name="description" content="메이커캐드(MakerCAD)는 학교·학원을 위한 교육용 3D CAD 프로그램입니다. 단계별 미션으로 3D 모델링을 배우고 3D 프린터·레이저커팅 출력, 로봇 조립까지 하나로 연결합니다." />
-  <meta name="keywords" content="메이커캐드, MakerCAD, 메이커 캐드, 메이커CAD, 교육용 3D CAD, 3D 모델링 교육, 3D 설계 프로그램, 로봇 설계, 3D 프린터 수업, 레이저커팅" />
+  <meta name="keywords" content="메이커캐드, MakerCAD, 메이커 캐드, 메이커CAD, 교육용 3D CAD, 3D 모델링 교육, 3D 설계 프로그램, 로봇 설계, 3D 프린터 수업, 레이저커팅, 4족 보행로봇, 로봇 모션, 서보모터 제어, 보행 시뮬레이션" />
   <link rel="canonical" href="https://makercad.kr/" />
   <meta name="theme-color" content="#071827" />
   <title>메이커캐드 MakerCAD | 학교·학원을 위한 교육용 3D CAD 프로그램</title>
@@ -32,6 +32,7 @@
         <a href="#why">소개</a>
         <a href="#mission">튜토리얼</a>
         <a href="#output">출력</a>
+        <a href="#robot-motion">로봇 동작</a>
         <a href="#roadmap">교육과정</a>
         <a href="#pricing">요금</a>
         <a href="#contact">문의</a>
@@ -171,6 +172,29 @@
           <source src="assets/gripper-car-assembly.mp4?v=2" type="video/mp4">
           이 브라우저에서는 영상을 재생할 수 없습니다. <a href="assets/gripper-car-assembly.mp4">영상 파일 받기</a>
         </video>
+      </div>
+    </section>
+
+    <section class="section dark quad-section" id="robot-motion">
+      <div class="shell">
+        <div class="section-head light-head reveal">
+          <div><span class="kicker">ROBOT MOTION · 4족 보행로봇</span><h2>설계한 로봇이<br>가상공간에서 걷습니다</h2></div>
+          <p>메이커캐드(MakerCAD)로 4족 보행로봇을 3D 모델링하고 모션 프로그램과 연동했습니다. 모터 제어와 3D 로봇 모델이 함께 움직여, 실제 로봇을 켜기 전에 가상공간에서 걷는 모습을 먼저 확인합니다.</p>
+        </div>
+        <ol class="quad-flow reveal">
+          <li><b>로봇 설계</b><span>몸체·다리·브라켓을 3D로 설계하고 서보모터와 조립</span></li>
+          <li><b>모션 제작</b><span>자세를 저장해 걷기·돌기·인사 동작 만들기</span></li>
+          <li><b>모터 제어</b><span>관절마다 모터 ID를 연결하고 AX 서보 값(0~1023)으로 제어</span></li>
+          <li><b>가상 보행 시뮬레이션</b><span>바닥 걷기로 3D 모델이 실제처럼 걸어가는 모습 확인</span></li>
+        </ol>
+        <div class="quad-video reveal">
+          <video controls playsinline muted loop preload="metadata" poster="assets/quadruped-motion-poster.jpg">
+            <source src="assets/quadruped-motion.mp4" type="video/mp4">
+            이 브라우저에서는 영상을 재생할 수 없습니다. <a href="assets/quadruped-motion.mp4">영상 파일 받기</a>
+          </video>
+          <p class="quad-caption">메이커캐드 로봇 동작 화면 · 서기, 앞으로·뒤로 걷기, 왼쪽·오른쪽 돌기, 인사 (31초)</p>
+        </div>
+        <ul class="quad-tags reveal"><li>관절 자동 인식</li><li>좌우 대칭 · 앞뒤 다리 복사</li><li>걸음새 자동 만들기</li><li>블록 코딩 · 조종기</li><li>USB · 블루투스로 실제 로봇 연결</li><li>RoboMotion 연동</li></ul>
       </div>
     </section>
 

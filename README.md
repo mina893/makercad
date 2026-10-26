@@ -29,6 +29,7 @@
 - `favicon.ico`, `assets/favicon-32.png`, `assets/apple-touch-icon.png` : 브라우저 탭·휴대폰 홈 화면 아이콘
 - `assets/gripper-car-model.jpg`, `assets/gripper-car-ui.jpg` : 집게 자동차 프로젝트 섹션 이미지
 - `assets/gripper-car-assembly.mp4` : 집게 자동차 조립 영상 (720p, 1.5배속, 약 5MB) · `assets/gripper-car-assembly-poster.jpg` : 영상 대표 이미지
+- `assets/quadruped-motion.mp4`, `assets/quadruped-motion-poster.jpg` : 4족 보행로봇 로봇 동작 영상(31초, 약 1.7MB)과 대표 이미지
 
 ## 검색 등록 파일
 - `robots.txt`, `sitemap.xml` : 네이버·구글이 사이트를 수집할 때 읽는 파일 (지우지 마세요)

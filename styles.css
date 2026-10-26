@@ -106,3 +106,17 @@ footer{background:#04111c;color:#8499a9;padding:27px 0}.footer-grid{display:flex
 .car-video-head span{color:#54677a;font-size:14px}
 .car-video video{display:block;width:100%;aspect-ratio:16/9;border-radius:24px;background:#eef3f9;border:1px solid var(--line);box-shadow:var(--shadow)}
 @media (max-width:680px){.car-video{margin-top:36px}.car-video video{border-radius:16px}}
+
+/* 4족 보행로봇 · 로봇 동작 */
+.quad-flow{list-style:none;counter-reset:qf;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px;padding:0;margin:0 0 30px}
+.quad-flow li{counter-increment:qf;position:relative;padding:20px 20px 20px 22px;border-radius:18px;background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.1)}
+.quad-flow li:before{content:counter(qf);display:grid;place-items:center;width:30px;height:30px;border-radius:50%;background:#22d6ee;color:#062033;font-weight:900;font-size:14px;margin-bottom:14px}
+.quad-flow li:not(:last-child):after{content:"";position:absolute;right:-12px;top:34px;width:10px;height:10px;border-top:2px solid #22d6ee;border-right:2px solid #22d6ee;transform:rotate(45deg);z-index:2}
+.quad-flow b{display:block;font-size:18px;color:#fff;margin-bottom:6px}
+.quad-flow span{display:block;font-size:13.5px;color:#9db2c3;line-height:1.55}
+.quad-video video{display:block;width:100%;aspect-ratio:1600/828;border-radius:22px;background:#0b1b2b;border:1px solid rgba(255,255,255,.12);box-shadow:0 30px 70px rgba(0,0,0,.35)}
+.quad-caption{margin:12px 2px 0;color:#8ea6b8;font-size:13px}
+.quad-tags{display:flex;flex-wrap:wrap;gap:8px;list-style:none;padding:0;margin:24px 0 0}
+.quad-tags li{padding:8px 14px;border-radius:999px;background:rgba(34,214,238,.1);border:1px solid rgba(34,214,238,.28);color:#7fe6f7;font-size:13px;font-weight:700}
+@media (max-width:1020px){.quad-flow{grid-template-columns:repeat(2,minmax(0,1fr))}.quad-flow li:after{display:none}}
+@media (max-width:680px){.quad-flow{grid-template-columns:1fr}.quad-video video{border-radius:14px}}
