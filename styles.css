@@ -120,3 +120,32 @@ footer{background:#04111c;color:#8499a9;padding:27px 0}.footer-grid{display:flex
 .quad-tags li{padding:8px 14px;border-radius:999px;background:rgba(34,214,238,.1);border:1px solid rgba(34,214,238,.28);color:#7fe6f7;font-size:13px;font-weight:700}
 @media (max-width:1020px){.quad-flow{grid-template-columns:repeat(2,minmax(0,1fr))}.quad-flow li:after{display:none}}
 @media (max-width:680px){.quad-flow{grid-template-columns:1fr}.quad-video video{border-radius:14px}}
+
+/* 푸터 개발자·연락처 */
+.footer-info{display:flex;flex-direction:column;gap:4px;text-align:center}
+.footer-info p{margin:0}
+.footer-info a{color:#b7c9d5}
+.footer-info a:hover{color:#4be1f8}
+@media (max-width:680px){.footer-info{text-align:left}}
+
+/* 3D프린터운용기능사 튜토리얼 */
+.cert-section{background:#fff}
+.cert-tracks{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.cert-track{border:1px solid var(--line);border-radius:24px;padding:26px;background:linear-gradient(180deg,#f6fbfd,#fff)}
+.cert-track-head{display:flex;align-items:center;gap:12px;margin-bottom:18px}
+.cert-track-head span{padding:6px 12px;border-radius:999px;background:#0b2a40;color:#4be1f8;font-size:12px;font-weight:900;letter-spacing:.04em}
+.cert-track-head b{font-size:21px}
+.cert-steps{list-style:none;counter-reset:cs;margin:0;padding:0;display:grid;gap:12px}
+.cert-steps li{counter-increment:cs;position:relative;padding:16px 18px 16px 62px;border-radius:16px;background:#fff;border:1px solid var(--line)}
+.cert-steps li:before{content:counter(cs);position:absolute;left:18px;top:16px;width:30px;height:30px;border-radius:50%;display:grid;place-items:center;background:linear-gradient(145deg,#1bd8e9,#0ea9cf);color:#fff;font-weight:900;font-size:14px}
+.cert-steps b{display:block;font-size:16.5px;margin-bottom:4px}
+.cert-steps span{display:block;color:var(--muted);font-size:14px;line-height:1.6}
+.cert-steps em{font-style:normal;font-weight:800;color:#0b7fa0}
+.cert-steps i{display:inline-block;margin-top:8px;font-style:normal;font-size:12.5px;font-weight:800;color:#0b7fa0;background:#e6f8fc;padding:4px 10px;border-radius:8px}
+.cert-check{margin-top:20px;display:flex;align-items:center;gap:20px;padding:20px 24px;border-radius:20px;background:#0b2238;color:#fff}
+.cert-check b{flex:none;font-size:16px;color:#4be1f8}
+.cert-check ul{display:flex;flex-wrap:wrap;gap:8px;list-style:none;margin:0;padding:0}
+.cert-check li{padding:6px 12px;border-radius:999px;background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.14);font-size:13px;color:#d6e4ee}
+.cert-note{margin:14px 2px 0;color:var(--muted);font-size:13px}
+@media (max-width:1020px){.cert-tracks{grid-template-columns:1fr}.cert-check{flex-direction:column;align-items:flex-start}}
+@media (max-width:680px){.cert-track{padding:18px}.cert-steps li{padding:14px 14px 14px 56px}.cert-steps li:before{left:14px}}

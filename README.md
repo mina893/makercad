@@ -19,7 +19,8 @@
 
 ## 수정 포인트
 - 전화번호: `index.html`에서 `070-7123-9081` 검색
-- 사이트 주소: `index.html`에서 `wisecoding.kr` 검색
+- 이메일: `index.html`에서 `makercad@naver.com` 검색
+- 개발자 이름: `index.html`에서 `조용민` 검색
 - 가격: `id="pricing"` 영역
 
 ## 로고 파일
@@ -35,3 +36,5 @@
 - `robots.txt`, `sitemap.xml` : 네이버·구글이 사이트를 수집할 때 읽는 파일 (지우지 마세요)
 - `CNAME` : 도메인 makercad.kr 연결 파일 (지우지 마세요)
 - 한글 검색어 "메이커캐드"는 index.html의 title, description, keywords, 구조화 데이터(ld+json)에 들어 있습니다.
+
+- 3D프린터운용기능사 실기 튜토리얼 섹션(#craftsman): 공개문제 기준 과제1 모델링·과제2 프린팅 단계 안내
