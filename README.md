@@ -38,3 +38,4 @@
 - 한글 검색어 "메이커캐드"는 index.html의 title, description, keywords, 구조화 데이터(ld+json)에 들어 있습니다.
 
 - 3D프린터운용기능사 실기 튜토리얼 섹션(#craftsman): 공개문제 기준 과제1 모델링·과제2 프린팅 단계 안내
+- 웹 베타 안내 섹션(#web-beta): makercad.co.kr, 비밀번호는 makercad@naver.com 메일 요청
