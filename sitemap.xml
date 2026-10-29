@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://makercad.kr/</loc>
+    <lastmod>2026-10-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://makercad.kr/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://makercad.kr/en/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://makercad.kr/zh/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://makercad.kr/es/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://makercad.kr/ja/"/>
+  </url>
+  <url>
+    <loc>https://makercad.kr/en/</loc>
+    <lastmod>2026-10-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://makercad.kr/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://makercad.kr/en/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://makercad.kr/zh/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://makercad.kr/es/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://makercad.kr/ja/"/>
+  </url>
+  <url>
+    <loc>https://makercad.kr/zh/</loc>
+    <lastmod>2026-10-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://makercad.kr/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://makercad.kr/en/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://makercad.kr/zh/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://makercad.kr/es/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://makercad.kr/ja/"/>
+  </url>
+  <url>
+    <loc>https://makercad.kr/es/</loc>
+    <lastmod>2026-10-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://makercad.kr/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://makercad.kr/en/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://makercad.kr/zh/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://makercad.kr/es/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://makercad.kr/ja/"/>
+  </url>
+  <url>
+    <loc>https://makercad.kr/ja/</loc>
+    <lastmod>2026-10-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://makercad.kr/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://makercad.kr/en/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://makercad.kr/zh/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://makercad.kr/es/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://makercad.kr/ja/"/>
+  </url>
+</urlset>

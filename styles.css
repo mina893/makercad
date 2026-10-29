@@ -164,3 +164,29 @@ footer{background:#04111c;color:#8499a9;padding:27px 0}.footer-grid{display:flex
 .beta-steps span{display:block;color:#9db2c3;font-size:13.5px;line-height:1.55}
 @media (max-width:1020px){.beta-card{grid-template-columns:1fr;padding:40px 34px}}
 @media (max-width:680px){.beta-card{padding:30px 20px;border-radius:22px}.beta-actions .btn{width:100%;justify-content:center}}
+
+/* 언어 선택 상단 바 */
+.topbar{background:#030f19;border-bottom:1px solid rgba(255,255,255,.06)}
+.topbar-in{height:40px;display:flex;align-items:center;justify-content:space-between;gap:16px}
+.header .shell.topbar-in{width:min(1640px,calc(100% - 96px))}
+.topbar-info{display:flex;gap:18px;font-size:12.5px;color:#8ea6b8}
+.topbar-info a:hover{color:#4be1f8}
+.lang-switch{display:flex;align-items:center;gap:2px;padding:3px;border-radius:999px;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.1)}
+.lang-switch a{padding:4px 11px;border-radius:999px;font-size:12.5px;font-weight:800;color:#b7c9d5;line-height:1.4;transition:.2s}
+.lang-switch a:hover{color:#fff;background:rgba(255,255,255,.08)}
+.lang-switch a.on{background:linear-gradient(135deg,#1fe1f6,#0dbedc);color:#062033}
+.header .nav{position:relative}
+@media (max-width:1020px){.header .shell.topbar-in{width:min(1180px,calc(100% - 48px))}.header .nav-links{left:0;right:0}}
+@media (max-width:680px){.header .shell.topbar-in{width:min(100% - 28px,1180px)}.topbar-info{display:none}.topbar-in{justify-content:center;height:38px}.lang-switch a{padding:4px 10px;font-size:12px}}
+html[lang="zh-CN"] body{font-family:"Noto Sans SC","PingFang SC","Microsoft YaHei",Pretendard,Arial,sans-serif}
+html[lang="ja"] body{font-family:"Noto Sans JP","Hiragino Sans","Yu Gothic","Meiryo",Pretendard,Arial,sans-serif}
+html[lang="en"] body,html[lang="es"] body{font-family:Pretendard,Inter,"Segoe UI",Arial,sans-serif}
+/* 다국어 레이아웃 보정 */
+html[lang="ja"] body,html[lang="zh-CN"] body{word-break:normal;line-break:strict;overflow-wrap:anywhere}
+html:not([lang="ko"]) .nav-links a,html:not([lang="ko"]) .nav-cta{white-space:nowrap}
+html:not([lang="ko"]) .nav-links{gap:18px;font-size:13.5px}
+html:not([lang="ko"]) .hero h1{font-size:clamp(40px,4vw,68px);letter-spacing:-.04em}
+html[lang="en"] h2,html[lang="es"] h2{letter-spacing:-.03em}
+@media (max-width:1500px){html:not([lang="ko"]) .nav-cta{display:none}}
+@media (max-width:680px){html:not([lang="ko"]) .hero h1{font-size:36px}}
+@media (max-width:680px){html[lang="ja"] .hero h1{font-size:33px}}

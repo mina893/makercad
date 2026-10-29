@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+
+<html lang="ja">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<meta content="MakerCAD（메이커캐드）は、学校・塾のための教育用3D CADソフトです。ステップ別ミッションで3Dモデリングを学び、3Dプリンター・レーザーカット出力からロボットの組み立てまでひとつにつなげます。" name="description"/>
+<meta content="MakerCAD, 메이커캐드, メーカーCAD, 教育用3D CAD, 3Dモデリング教育, 3D設計ソフト, ロボット設計, 3Dプリンター授業, レーザーカット, 4足歩行ロボット, ロボットモーション, サーボモーター制御, 歩行シミュレーション, 3Dプリンター運用技能士, 3Dプリンター運用技能士 実技, 技能士チュートリアル, MakerCAD Web, Web CADベータ, チョ・ヨンミン" name="keywords"/>
+<link href="https://makercad.kr/ja/" rel="canonical"/>
+<link href="https://makercad.kr/" hreflang="ko" rel="alternate"/>
+<link href="https://makercad.kr/en/" hreflang="en" rel="alternate"/>
+<link href="https://makercad.kr/zh/" hreflang="zh" rel="alternate"/>
+<link href="https://makercad.kr/es/" hreflang="es" rel="alternate"/>
+<link href="https://makercad.kr/ja/" hreflang="ja" rel="alternate"/>
+<link href="https://makercad.kr/" hreflang="x-default" rel="alternate"/>
+<meta content="#071827" name="theme-color"/>
+<title>MakerCAD | 学校・塾のための教育用3D CADソフト</title>
+<link href="../favicon.ico" rel="icon" sizes="any"/>
+<link href="../assets/favicon-32.png" rel="icon" sizes="32x32" type="image/png"/>
+<link href="../assets/apple-touch-icon.png" rel="apple-touch-icon"/>
+<meta content="website" property="og:type"/>
+<meta content="MakerCAD" property="og:site_name"/>
+<meta content="MakerCAD | 学校・塾のための教育用3D CADソフト" property="og:title"/>
+<meta content="MakerCAD（메이커캐드）は、学校・塾のための教育用3D CADソフトです。ステップ別ミッションで3Dモデリングを学び、3Dプリンター・レーザーカット出力からロボットの組み立てまでひとつにつなげます。" property="og:description"/>
+<meta content="https://makercad.kr/ja/" property="og:url"/>
+<meta content="https://makercad.kr/assets/makercad-logo.png" property="og:image"/>
+<meta content="ja_JP" property="og:locale"/>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "WebSite", "name": "메이커캐드 MakerCAD", "alternateName": ["MakerCAD", "메이커캐드", "메이커 캐드", "메이커CAD"], "url": "https://makercad.kr/ja/", "inLanguage": "ja"}, {"@type": "SoftwareApplication", "name": "MakerCAD", "alternateName": ["메이커캐드", "메이커 캐드", "메이커CAD"], "url": "https://makercad.kr/ja/", "applicationCategory": "DesignApplication", "operatingSystem": "Windows", "description": "MakerCAD（메이커캐드）は、学校・塾のための教育用3D CADソフトです。ステップ別ミッションで3Dモデリングを学び、3Dプリンター・レーザーカット出力からロボットの組み立てまでひとつにつなげます。", "image": "https://makercad.kr/assets/makercad-logo.png", "inLanguage": "ja", "author": {"@id": "https://makercad.kr/#developer"}}, {"@type": "Person", "@id": "https://makercad.kr/#developer", "name": "조용민 (Yongmin Jo)", "jobTitle": "MakerCAD 開発者", "email": "mailto:makercad@naver.com", "telephone": "+82-70-7123-9081", "url": "https://makercad.kr/"}]}</script>
+<link href="../styles.css" rel="stylesheet"/>
+</head>
+<body>
+<header class="header" id="top">
+<div class="topbar"><div class="shell topbar-in">
+<span class="topbar-info"><a href="tel:07071239081">☎ 070-7123-9081</a><a href="mailto:makercad@naver.com">✉ makercad@naver.com</a></span>
+<nav aria-label="Language" class="lang-switch">
+<a href="../en/" hreflang="en" lang="en">EN</a>
+<a href="../" hreflang="ko" lang="ko">한국어</a>
+<a href="../zh/" hreflang="zh" lang="zh">中文</a>
+<a href="../es/" hreflang="es" lang="es">ES</a>
+<a aria-current="page" class="on" href="./" hreflang="ja" lang="ja">日本語</a>
+</nav>
+</div></div>
+<div class="shell nav">
+<a aria-label="MakerCAD ホーム" class="brand" href="#top">
+<img alt="MakerCAD ロゴ" class="logo-h" src="../assets/makercad-logo-horizontal.png"/>
+</a>
+<button aria-controls="navLinks" aria-expanded="false" class="menu">メニュー</button>
+<nav class="nav-links" id="navLinks">
+<a href="#why">紹介</a>
+<a href="#mission">チュートリアル</a>
+<a href="#output">出力</a>
+<a href="#robot-motion">ロボット動作</a>
+<a href="#craftsman">技能士実技</a>
+<a href="#roadmap">カリキュラム</a>
+<a href="#web-beta">Webベータ</a>
+<a href="#pricing">料金</a>
+<a href="#contact">お問い合わせ</a>
+</nav>
+<a class="nav-cta" href="#contact">導入相談 <span>→</span></a>
+</div>
+</header>
+<main>
+<section class="hero">
+<div class="hero-grid shell">
+<div class="hero-copy reveal">
+<div class="pill"><span></span> MakerCAD · 学校・塾のための3Dモデリング教育ソフト</div>
+<h1>小学生でもかんたん、<br/><em>自分の手でつくる3D設計</em></h1>
+<p class="lead">スケッチから3Dモデル、3Dプリンター・レーザーカット出力、<br class="pc"/> ロボットの組み立てまで <strong>MakerCADひとつで</strong> つながります。</p>
+<div class="hero-actions">
+<a class="btn primary" href="#contact">今すぐ始める <span>→</span></a>
+<a class="btn secondary" href="#mission"><i>▶</i> 授業の流れを見る</a>
+</div>
+<div class="quick-facts">
+<div><strong>7種</strong><span>基本ミッション</span></div>
+<div><strong>STL · STEP · DXF</strong><span>実際の出力ファイル</span></div>
+<div><strong>Windows PC</strong><span>インストール版・ポータブル</span></div>
+</div>
+</div>
+<div class="hero-stage">
+<div class="hero-visual">
+<img alt="MakerCADメインビジュアル：6足歩行ロボットと設計画面" class="hero-composite" src="../assets/hero-stage-tight.png"/>
+<img alt="" aria-hidden="true" class="hero-front" src="../assets/hero-robot-front.png"/>
+</div>
+</div>
+</div>
+<div class="hero-wave"></div>
+</section>
+<section class="trust-strip">
+<div class="shell trust-grid">
+<div><span class="num">01</span><b>学校・塾に特化</b><small>初めて学ぶ生徒が中心</small></div>
+<div><span class="num">02</span><b>実際のものづくりへ</b><small>プリンター・レーザーカッター出力</small></div>
+<div><span class="num">03</span><b>ロボットプロジェクト</b><small>部品設計から組み立てまで</small></div>
+<div><span class="num">04</span><b>段階的な学習</b><small>ミッション・ヒント・自動判定</small></div>
+</div>
+</section>
+<section class="section" id="why">
+<div class="shell">
+<div class="section-head reveal">
+<div><span class="kicker">WHY MAKERCAD</span><h2>授業をかんたんにする<br/>主な機能</h2></div>
+<p>MakerCADは、複雑なプロ向けCADよりも、生徒が最初に理解できる流れを重視しました。説明を見てまねし、自分でつくり、実際の作品として出力します。</p>
+</div>
+<div class="feature-grid">
+<article class="feature reveal"><div class="feature-icon cyan">✦</div><span>01</span><h3>ゲーム感覚で学ぶミッション</h3><p>ガイドカードに沿って一歩ずつ進み、正しく完成すると次のステップへ進んで星がもらえます。</p></article>
+<article class="feature reveal"><div class="feature-icon blue">▣</div><span>02</span><h3>すぐに出力できる本物の設計</h3><p>STL・STEPで3Dプリンターへ、DXFでレーザーカッターへ。授業の成果がそのまま実際のものづくりにつながります。</p></article>
+<article class="feature reveal"><div class="feature-icon green">⚙</div><span>03</span><h3>ロボットの組み立てまで一気に</h3><p>設計した部品とモーターを「挿入」機能で組み合わせ、6足歩行ロボットのような動く作品を完成させます。</p></article>
+</div>
+</div>
+</section>
+<section class="section soft" id="mission">
+<div class="shell split">
+<div class="visual-card reveal">
+<div class="window-bar"><i></i><i></i><i></i><span>MakerCAD · Mission 1</span></div>
+<img alt="MakerCADステップ別ミッションの実際の画面" src="../assets/mission-ui.jpg"/>
+</div>
+<div class="copy reveal">
+<span class="kicker">STEP BY STEP</span>
+<h2>手順どおりに進めるだけで<br/>完成するステップ別ミッション</h2>
+<p class="intro">初めてCADを学ぶ生徒も一人で復習できるよう、自動判定・星評価・ヒント・例題を用意しています。</p>
+<div class="check-list">
+<div><b>自動判定 · 星評価</b><span>正しく完了すると次のステップへ</span></div>
+<div><b>ヒント · このステップの例題</b><span>つまずいた生徒も確認しながら進行</span></div>
+<div><b>ミッション7種を標準搭載</b><span>穴あきプレート → コの字フレーム → モーター部品 → 6足歩行ロボット</span></div>
+</div>
+</div>
+</div>
+</section>
+<section class="section design-flow">
+<div class="shell">
+<div class="center-head reveal"><span class="kicker">SIMPLE MODELING</span><h2>2Dで描いて数値を入れれば3Dに</h2><p>スケッチ → 押し出し → 確認。初心者にもわかりやすい3ステップで設計を始めます。</p></div>
+<div class="flow-showcase reveal">
+<div class="flow-image"><img alt="2Dスケッチ画面" src="../assets/sketch-ui.jpg"/><span class="label">2D SKETCH</span></div>
+<div class="arrow">→</div>
+<div class="flow-image part"><img alt="完成した3D部品" src="../assets/laser-part.jpg"/><span class="label">3D MODEL</span></div>
+</div>
+<div class="steps">
+<div><span>01</span><h3>スケッチ</h3><p>線・円・四角形を描き、寸法を数値で入力します。</p></div>
+<div><span>02</span><h3>押し出し</h3><p>板の厚さを決め、必要な穴を切り抜きます。</p></div>
+<div><span>03</span><h3>確認</h3><p>画面を回転させて、完成した部品をチェックします。</p></div>
+</div>
+</div>
+</section>
+<section class="section dark" id="output">
+<div class="shell">
+<div class="section-head light-head reveal">
+<div><span class="kicker">FROM SCREEN TO REAL</span><h2>設計したとおりに<br/>実際の作品として出力</h2></div>
+<p>授業は画面の中で終わりません。つくった設計を3Dプリンターやレーザーカッターへそのままつなげます。</p>
+</div>
+<div class="output-grid">
+<article class="output-card reveal">
+<div class="output-copy"><span class="mini">3D PRINTER</span><h3>STL · STEP書き出し</h3><p>立体部品、ブラケット、ロボットの脚など、厚みと構造のある作品をそのまま出力できます。</p><div class="chips"><span>STL</span><span>STEP</span><span>3D PRINT</span></div></div>
+<img alt="3Dプリンター出力用の部品" src="../assets/printed-part.jpg"/>
+</article>
+<article class="output-card reveal">
+<div class="output-copy"><span class="mini">LASER CUTTING</span><h3>DXF書き出し · 板取り配置</h3><p>アクリル・MDF板材用の外形線をDXFで書き出し、複数の部品を1枚の板に配置できます。</p><div class="chips"><span>DXF</span><span>ACRYLIC</span><span>MDF</span></div></div>
+<img alt="レーザーカット用の平板部品" src="../assets/panel-part.jpg"/>
+</article>
+</div>
+</div>
+</section>
+<section class="section robot-section">
+<div class="shell robot-grid">
+<div class="robot-visual reveal"><img alt="MakerCAD 6足歩行ロボットの組み立て例" src="../assets/robot-assembly.jpg"/><span class="glow-ring"></span></div>
+<div class="copy reveal"><span class="kicker">ROBOT ASSEMBLY</span><h2>部品を集めて<br/>動くロボットまで</h2><p class="intro">穴とモーター軸をクリックしてはめ合わせる「挿入」組み立てで、実際のロボットのように構造を確認します。</p>
+<div class="robot-stats"><div><b>4種</b><span>自分で設計した部品</span></div><div><b>18個</b><span>AX18サーボモーターを組み立て</span></div><div><b>3段階</b><span>脚 → 胴体 → 全体組み立て</span></div></div>
+</div>
+</div>
+</section>
+<section class="section car-section" id="gripper-car">
+<div class="shell car-grid">
+<div class="copy reveal"><span class="kicker">PROJECT · グリッパーカー</span><h2>MakerCADで完成させた<br/>4輪グリッパーカー</h2><p class="intro">車輪、フレーム、サーボモーター、グリッパー、制御ボードまでMakerCADで設計・組み立てしました。組み立てが終わると、部品が一つずつ飛んできてはまる組み立て動画も自動で作成されます。</p>
+<div class="robot-stats"><div><b>146個</b><span>組み立てた部品</span></div><div><b>158個</b><span>部品間の組み立て関係（拘束条件）</span></div><div><b>194秒</b><span>自動作成した組み立て動画</span></div></div>
+<ul class="car-tags"><li>部品表を自動作成</li><li>レンダリング画像</li><li>STEP · STL · DXF書き出し</li></ul>
+</div>
+<div class="car-visual reveal">
+<figure class="car-model"><img alt="MakerCADで組み立てた4輪グリッパーカーの3Dモデル" loading="lazy" src="../assets/gripper-car-model.jpg"/></figure>
+<figure class="car-ui"><img alt="MakerCAD組み立て画面：モデルツリー、3Dアセンブリ、組み立て動画タイムライン" loading="lazy" src="../assets/gripper-car-ui.jpg"/><figcaption>実際のMakerCAD組み立て画面</figcaption></figure>
+</div>
+</div>
+<div class="shell car-video reveal">
+<div class="car-video-head"><h3>MakerCADが自動作成した組み立て動画</h3><span>2分10秒（1.5倍速）· 部品が順番に飛んできて組み立てられます</span></div>
+<video controls="" muted="" playsinline="" poster="../assets/gripper-car-assembly-poster.jpg?v=2" preload="metadata">
+<source src="../assets/gripper-car-assembly.mp4?v=2" type="video/mp4"/>
+          このブラウザでは動画を再生できません。 <a href="../assets/gripper-car-assembly.mp4">動画ファイルをダウンロード</a>
+</video>
+</div>
+</section>
+<section class="section dark quad-section" id="robot-motion">
+<div class="shell">
+<div class="section-head light-head reveal">
+<div><span class="kicker">ROBOT MOTION · 4足歩行ロボット</span><h2>設計したロボットが<br/>仮想空間で歩きます</h2></div>
+<p>MakerCADで4足歩行ロボットを3Dモデリングし、モーションプログラムと連携しました。モーター制御と3Dロボットモデルが一緒に動き、実機の電源を入れる前に仮想空間で歩く様子を確認できます。</p>
+</div>
+<ol class="quad-flow reveal">
+<li><b>ロボット設計</b><span>胴体・脚・ブラケットを3Dで設計し、サーボモーターと組み立て</span></li>
+<li><b>モーション作成</b><span>姿勢を保存して、歩く・回る・あいさつの動作をつくる</span></li>
+<li><b>モーター制御</b><span>関節ごとにモーターIDを割り当て、AXサーボの値（0~1023）で制御</span></li>
+<li><b>仮想歩行シミュレーション</b><span>床の上で3Dモデルが本物のように歩く様子を確認</span></li>
+</ol>
+<div class="quad-video reveal">
+<video controls="" loop="" muted="" playsinline="" poster="../assets/quadruped-motion-poster.jpg" preload="metadata">
+<source src="../assets/quadruped-motion.mp4" type="video/mp4"/>
+            このブラウザでは動画を再生できません。 <a href="../assets/quadruped-motion.mp4">動画ファイルをダウンロード</a>
+</video>
+<p class="quad-caption">MakerCADのロボット動作画面 · 立つ、前進・後退、左右旋回、あいさつ（31秒）</p>
+</div>
+<ul class="quad-tags reveal"><li>関節を自動認識</li><li>左右対称 · 前後の脚をコピー</li><li>歩容を自動作成</li><li>ブロックコーディング · コントローラー</li><li>USB · Bluetoothで実機ロボットに接続</li><li>RoboMotion連携</li></ul>
+</div>
+</section>
+<section class="section cert-section" id="craftsman">
+<div class="shell">
+<div class="section-head reveal">
+<div><span class="kicker">CERTIFICATE TUTORIAL · 韓国の3Dプリンター運用技能士</span><h2>韓国の3Dプリンター運用技能士 実技試験を、<br/>チュートリアルで練習</h2></div>
+<p>公開問題の実技手順どおりに練習します。図面を読み、MakerCADで部品をモデリング・組み立てしてSTP・STLで保存し、スライシング、出力、後処理まで一度に身につけます。</p>
+</div>
+<div class="cert-tracks">
+<div class="cert-track reveal">
+<div class="cert-track-head"><span>課題1</span><b>3Dモデリング作業</b></div>
+<ol class="cert-steps">
+<li><b>図面の読解 · 部品モデリング</b><span>図面どおり1:1の縮尺で部品を描きます。可動部のはめあい余裕を決め、指定位置に受験番号を <em>陰刻</em>で彫り込みます。</span><i>チェック：基準寸法±1mm以内</i></li>
+<li><b>アセンブリ · ファイル保存</b><span>部品を図面の組み立て状態のまま1:1で組み立て、STPとSTLで保存します。ファイル名は受験番号（例：02.STP）です。</span><i>チェック：採点はSTPファイル基準</i></li>
+<li><b>スライシング</b><span>試験会場のプリンター機種に合わせて組み立て状態でスライシングし、予想出力時間の確認を受けます。</span><i>チェック：予想出力時間1時間20分以内</i></li>
+</ol>
+</div>
+<div class="cert-track reveal">
+<div class="cert-track-head"><span>課題2</span><b>3Dプリント作業</b></div>
+<ol class="cert-steps">
+<li><b>プリンターのセッティング</b><span>ノズルとベッドの異物を取り除き、PLAフィラメントを点検してからベッドのレベリングを行います。</span><i>チェック：サンプル出力テスト不可</i></li>
+<li><b>出力</b><span>USB・SDカードで出力ファイルを直接読み込み、設定値を決めて1:1の組み立て状態で出力します。</span><i>チェック：無線転送の使用不可</i></li>
+<li><b>後処理 · 片付け</b><span>サポートとバリを取り除いて提出し、プリンターを試験前の状態に戻します。</span><i>チェック：保護手袋・防じんマスク着用</i></li>
+</ol>
+</div>
+</div>
+<div class="cert-check reveal">
+<b>失格・減点を防ぐ最終チェック</b>
+<ul><li>受験番号の漏れ · 陽刻 · 位置の誤り</li><li>1:1の縮尺と組み立て状態</li><li>寸法誤差±2mm超過</li><li>STPファイルの欠落</li><li>可動範囲の逸脱</li><li>サポート未除去 · 破損</li></ul>
+</div>
+<p class="cert-note">韓国産業人力公団の3Dプリンター運用技能士 公開問題を基に整理しました。受験前に必ず最新の公開問題をご確認ください。</p>
+</div>
+</section>
+<section class="section soft" id="roadmap">
+<div class="shell">
+<div class="center-head reveal"><span class="kicker">1 YEAR ROADMAP</span><h2>週1時間・1年間の授業ロードマップ</h2><p>生徒のレベルや授業時数に合わせて、ミッションの順番や作品テーマを自由に調整できます。</p></div>
+<div class="roadmap">
+<article class="reveal"><span>01</span><small>約8週</small><h3>描画の基礎</h3><p>スケッチ · 寸法 · 押し出し<br/>ミッション1~2 穴あきプレート</p></article>
+<article class="reveal"><span>02</span><small>約8週</small><h3>立体構造</h3><p>面上スケッチ · 貫通<br/>ミッション3 コの字フレーム</p></article>
+<article class="reveal"><span>03</span><small>約10週</small><h3>自分だけの作品を出力</h3><p>3Dプリンター · レーザーカット<br/>名札 · 小物 · スタンド</p></article>
+<article class="reveal"><span>04</span><small>約10週</small><h3>ロボット設計 · 組み立て</h3><p>モーター部品 · 挿入組み立て<br/>ミッション4~7 6足歩行ロボット</p></article>
+</div>
+</div>
+</section>
+<section class="section audience">
+<div class="shell">
+<div class="section-head reveal"><div><span class="kicker">FOR EDUCATION</span><h2>こんな授業に<br/>ぴったりです</h2></div><p>小学校の基礎授業から中学・高校のメーカープロジェクト、塾・教育センターのロボット講座まで広げられます。</p></div>
+<div class="audience-grid">
+<article class="reveal"><div class="audience-icon">🏫</div><h3>小学校</h3><ul><li>放課後 · 創造体験授業</li><li>ミッションで初めての3D設計体験</li><li>自分の名札・小物を出力</li></ul></article>
+<article class="reveal"><div class="audience-icon">🎓</div><h3>中学 · 高校</h3><ul><li>正課 · 部活動 · メーカー授業</li><li>レーザーカットの板材作品</li><li>ロボット・機構設計プロジェクト</li></ul></article>
+<article class="reveal"><div class="audience-icon">👥</div><h3>塾 · 教育センター</h3><ul><li>コーディング · ロボット · メーカー講座</li><li>学年別のステップ授業を運営</li><li>完成作品で保護者公開授業</li></ul></article>
+</div>
+</div>
+</section>
+<section class="section beta-section" id="web-beta">
+<div class="shell">
+<div class="beta-card reveal">
+<div class="beta-copy">
+<span class="beta-badge">WEB BETA · インストール不要ですぐ起動</span>
+<h2>MakerCAD、Webでも<br/>使えるようになりました</h2>
+<p>MakerCAD Webベータ版を試してみたい方は、メールでご連絡ください。確認後、アクセス用パスワードをお送りします。</p>
+<div class="beta-actions">
+<a class="btn primary" href="mailto:makercad@naver.com?subject=%5B%EB%A9%94%EC%9D%B4%EC%BB%A4%EC%BA%90%EB%93%9C%20%EC%9B%B9%20%EB%B2%A0%ED%83%80%5D%20%EB%B9%84%EB%B0%80%EB%B2%88%ED%98%B8%20%EC%9A%94%EC%B2%AD&amp;body=%EC%9D%B4%EB%A6%84%3A%0A%EC%86%8C%EC%86%8D(%ED%95%99%EA%B5%90%C2%B7%ED%95%99%EC%9B%90%C2%B7%EA%B8%B0%EA%B4%80)%3A%0A%EC%97%B0%EB%9D%BD%EC%B2%98%3A%0A%EC%82%AC%EC%9A%A9%20%EB%AA%A9%EC%A0%81%3A%0A">✉ パスワードをメールで申請</a>
+<a class="btn secondary" href="https://makercad.co.kr/" rel="noopener" target="_blank">makercad.co.krを開く <span>↗</span></a>
+</div>
+</div>
+<ol class="beta-steps">
+<li><b>メールを送る</b><span>makercad@naver.com宛てに、お名前・ご所属・利用目的をお送りください。</span></li>
+<li><b>パスワードを受け取る</b><span>確認後、Webベータのアクセス用パスワードをメールでお知らせします。</span></li>
+<li><b>Webで起動</b><span>makercad.co.krにアクセスしてパスワードを入力すれば、すぐに始められます。</span></li>
+</ol>
+</div>
+</div>
+</section>
+<section class="section pricing" id="pricing">
+<div class="shell">
+<div class="center-head reveal"><span class="kicker">EDUCATION LICENSE</span><h2>気軽に導入できる教育用ライセンス</h2><p>個人サブスクリプションから学校・塾での複数台インストールまで、授業の規模に合わせて選べます。</p></div>
+<div class="price-grid">
+<article class="price-card reveal"><span class="price-title">月額プラン</span><strong>10,000<small>ウォン</small></strong><p>月 / 1人</p><ul><li>MakerCAD全機能</li><li>ミッション7種を標準搭載</li><li>STL · STEP · DXF書き出し</li></ul></article>
+<article class="price-card featured reveal"><div class="recommend">おすすめ</div><span class="price-title">年額プラン</span><strong>100,000<small>ウォン</small></strong><p>年 / 1人</p><ul><li>月額より2万ウォンお得</li><li>例題ファイル · 手順解説書</li><li>全機能を1年間利用</li></ul></article>
+<article class="price-card reveal"><span class="price-title">学校10台インストール</span><strong>900,000<small>ウォン</small></strong><p>10台 / 1年</p><ul><li>学校・塾の授業用</li><li>PC10台にインストール</li><li>カリキュラム運営に最適</li></ul></article>
+<article class="price-card reveal"><span class="price-title">学校20台インストール</span><strong>1,500,000<small>ウォン</small></strong><p>20台 / 1年</p><ul><li>PC教室 · 集団授業</li><li>PC20台にインストール</li><li>大規模な授業に最適</li></ul></article>
+</div>
+</div>
+</section>
+<section class="cta-section" id="contact">
+<div class="shell cta-card reveal">
+<div class="cta-copy"><span class="kicker">START MAKING</span><h2>次の学期の授業は、<br/><em>MakerCAD</em>で始めましょう。</h2><p>インストールしてミッション1を開けば、最初の授業から生徒が自分で3D部品を完成させられます。開発者チョ・ヨンミン（Yongmin Jo）が授業準備から導入まで直接ご相談に応じます。</p><div class="contact-row"><a href="tel:07071239081">☎ 070-7123-9081</a><a href="mailto:makercad@naver.com">✉ makercad@naver.com</a></div><a class="btn primary large" href="tel:07071239081">導入を相談する <span>→</span></a></div>
+<div class="cta-visual"><img alt="MakerCAD 6足歩行ロボット" src="../assets/robot-top-crop.jpg"/><div class="orbit one"></div><div class="orbit two"></div></div>
+</div>
+</section>
+</main>
+<footer>
+<div class="shell footer-grid">
+<a class="brand footer-brand" href="#top"><span><img alt="MakerCAD ロゴ" class="logo-h" src="../assets/makercad-logo-horizontal.png"/><small>MakerCAD · 学校・塾のための教育用3D CAD</small></span></a>
+<div class="footer-info"><p>開発者 チョ・ヨンミン（Yongmin Jo）· お問い合わせ <a href="tel:07071239081">070-7123-9081</a> · <a href="mailto:makercad@naver.com">makercad@naver.com</a> · <a href="https://makercad.kr/">makercad.kr</a> · Webベータ <a href="https://makercad.co.kr/" rel="noopener" target="_blank">makercad.co.kr</a></p><p>© <span id="year"></span> MakerCAD. All rights reserved.</p></div>
+<a class="to-top" href="#top">トップへ ↑</a>
+</div>
+</footer>
+<script src="../script.js"></script>
+</body>
+</html>
